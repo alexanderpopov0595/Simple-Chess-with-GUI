@@ -120,7 +120,9 @@ public class cellsListeners implements ActionListener {
 						count=0;
 						//3.9. Set buttons's colors to default					
 						firstSelectedButton.setBackground(color1);						
-						selectedButton.setBackground(color2);				
+						selectedButton.setBackground(color2);
+						//4.0 Set decline button active
+						Board.declineMove.setEnabled(true);
 			}		
 	}
 
